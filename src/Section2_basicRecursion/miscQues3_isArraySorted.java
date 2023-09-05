@@ -40,6 +40,16 @@ public class miscQues3_isArraySorted {
 			return smallAns;
 		}
 	}
+	public static boolean checkSortedBetter(int input[],int startIndex) {
+		if(startIndex>=input.length-1) {
+			return true;
+		}
+		if(input[startIndex]>input[startIndex+1]) {
+			return false;
+		}
+		boolean smallAns = checkSortedBetter(input, startIndex+1);
+		return smallAns;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
@@ -48,7 +58,8 @@ public class miscQues3_isArraySorted {
 		for(int i=0;i<n;i++) {
 			arr[i]=scn.nextInt();
 		}
-		boolean ans = isArraySorted2(arr);
+		//boolean ans = isArraySorted2(arr);
+		boolean ans = checkSortedBetter(arr, 0);
 		if(ans) {
 			System.out.println("sorted");
 		}

@@ -15,6 +15,13 @@ public class miscQues4_sumOfArrayElements {
 		int ans = arr[0]+sumOfArray(smallArray);
 		return ans;
 	}
+	public static int sumOfArrayBetter(int [] arr,int startIndex) {
+		if(startIndex>arr.length-1) {
+			return 0;
+		}
+		int smallans = arr[startIndex]+sumOfArrayBetter(arr, startIndex+1);
+		return smallans;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
@@ -24,7 +31,9 @@ public class miscQues4_sumOfArrayElements {
 			arr[i]=scn.nextInt();
 		}
 		int ans = sumOfArray(arr);
+		int ans2 =sumOfArrayBetter(arr, 0);
 		System.out.println(ans);
+		System.out.println(ans2);
 	}
 
 }

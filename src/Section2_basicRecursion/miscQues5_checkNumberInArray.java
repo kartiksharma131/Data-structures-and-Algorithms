@@ -20,6 +20,16 @@ public class miscQues5_checkNumberInArray {
 			return smallAns;
 		}
 	}
+	public static boolean keyPresentOrNotBetter(int [] arr,int k,int start) {
+		if(start>=arr.length) {
+			return false;
+		}
+		if(arr[start]==k) {
+			return true;
+		}
+		boolean smallAns = keyPresentOrNotBetter(arr, k,start+1);
+		return smallAns;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
@@ -29,7 +39,7 @@ public class miscQues5_checkNumberInArray {
 		for(int i=0;i<n;i++) {
 			arr[i]=scn.nextInt();
 		}
-		boolean ans = keyPresentOrNot(arr,k);
+		boolean ans = keyPresentOrNotBetter(arr,k,0);
 		if(ans) {
 			System.out.println("key is present");
 		}
