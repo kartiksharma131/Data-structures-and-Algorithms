@@ -37,12 +37,7 @@ public class miscQues3_isArraySorted {
 				smallInput[i-1]=arr[i];
 			}
 			boolean smallAns = isArraySorted2(smallInput);
-			if(smallAns) {
-				return true;
-			}
-			else {
-				return false;
-			}
+			return smallAns;
 		}
 	}
 	public static void main(String[] args) {
