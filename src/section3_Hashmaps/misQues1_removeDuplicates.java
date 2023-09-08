@@ -1,4 +1,4 @@
-package Section3_Hashmaps;
+package section3_Hashmaps;
 
 import java.util.ArrayList;
 import java.util.HashMap;

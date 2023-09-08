@@ -1,4 +1,4 @@
-package Section3_Hashmaps;
+package section3_Hashmaps;
 
 import java.util.HashMap;
 import java.util.Scanner;

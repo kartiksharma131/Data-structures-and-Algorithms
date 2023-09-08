@@ -1,4 +1,4 @@
-package Section2_basicRecursion;
+package section2_basicRecursion;
 
 import java.util.Scanner;
 

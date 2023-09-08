@@ -1,20 +1,21 @@
-package Section2_basicRecursion;
+package section2_basicRecursion;
 
 import java.util.Scanner;
 
-public class Ques4_SumOfFirstN {
-	public static int sumOfFirstN(int n) {
+public class miscQues1_powerOfX {
+	public static int power(int x,int n) {
 		if(n==0) {
-			return 0;
+			return 1;
 		}
-		int sum= n+ sumOfFirstN(n-1);
-		return sum;
+		int ans = x*power(x,n-1);
+		return ans;
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
+		int x= scn.nextInt();
 		int n = scn.nextInt();
-		int ans = sumOfFirstN(n);
+		int ans = power(x,n);
 		System.out.println(ans);
 	}
 
