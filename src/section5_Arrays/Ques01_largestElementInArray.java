@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques1_largestElementInArray {
+public class Ques01_largestElementInArray {
 	public static int largestElement(int [] arr) {
 		int ans = Integer.MIN_VALUE;
 		for(int i=0;i<arr.length;i++) {

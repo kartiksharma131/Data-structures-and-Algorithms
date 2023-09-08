@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Ques4_RemoveDuplicatesFromSortedArray {
+public class Ques04_RemoveDuplicatesFromSortedArray {
 	public static ArrayList<Integer> removeDuplicates(int []arr){
 		HashMap<Integer,Integer> map = new HashMap<>();
 		ArrayList<Integer> list = new ArrayList<>();

@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques9_findMissingNumber {
+public class Ques09_findMissingNumber {
 	public static int missingNo(int [] arr, int N) {
 		int sumTillN = (N*(N+1))/2;
 		int sum = 0;

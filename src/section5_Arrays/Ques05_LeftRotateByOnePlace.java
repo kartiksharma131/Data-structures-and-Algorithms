@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques5_LeftRotateByOnePlace {
+public class Ques05_LeftRotateByOnePlace {
 	public static void leftRotateByOne(int []arr) {
 		int temp = arr[0];
 		for(int i=1;i<arr.length;i++) {

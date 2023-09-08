@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques3_isArraySorted {
+public class Ques03_isArraySorted {
 
 	public static boolean isArraySortedIterative(int [] arr) {
 		for(int i=0;i<arr.length-1;i++) {

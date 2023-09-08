@@ -3,7 +3,7 @@ package section5_Arrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ques8_UnionOfTwoSortedArrays {
+public class Ques08_UnionOfTwoSortedArrays {
 	public static ArrayList<Integer> union(int [] arr1,int []arr2){
 		ArrayList<Integer> list = new ArrayList<>();
 		int i=0;

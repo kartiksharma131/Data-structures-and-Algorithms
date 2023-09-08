@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques2_SecondlargestElement {
+public class Ques02_SecondlargestElement {
 	public static int secondLargest(int [] arr) {
 		int max = Integer.MIN_VALUE;
 		int secMax = Integer.MIN_VALUE;

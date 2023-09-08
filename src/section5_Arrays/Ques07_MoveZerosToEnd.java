@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques7_MoveZerosToEnd {
+public class Ques07_MoveZerosToEnd {
 	public static void moveZerosToEnd(int [] arr) {
 		int j=-1;
 		for(int i=0;i<arr.length;i++) {

@@ -2,7 +2,7 @@ package section5_Arrays;
 
 import java.util.Scanner;
 
-public class Ques6_leftRotateByDplaces {
+public class Ques06_leftRotateByDplaces {
 	public static void reverse(int []arr,int start,int end) {
 		while(start<=end) {
 			int temp = arr[start];
