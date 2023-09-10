@@ -2,7 +2,7 @@ package section6_BinarySearch;
 
 import java.util.Scanner;
 
-public class Ques5_floorAndceil {
+public class Ques05_floorAndceil {
 
 	public static int searchPosition(int [] arr,int k) {
 		int low=0;
