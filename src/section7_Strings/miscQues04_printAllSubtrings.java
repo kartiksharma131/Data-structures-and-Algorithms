@@ -2,7 +2,7 @@ package section7_Strings;
 
 import java.util.Scanner;
 
-public class miscQue04_printAllSubtrings {
+public class miscQues04_printAllSubtrings {
 	public static void printAllSubstrings(String str) {
 		for(int i=0;i<str.length();i++) {
 			for(int j=i+1;j<=str.length();j++) {
