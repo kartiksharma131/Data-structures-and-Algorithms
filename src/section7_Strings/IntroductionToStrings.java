@@ -11,7 +11,19 @@ public class IntroductionToStrings {
 		System.out.println(str.substring(3));
 		System.out.println(str.substring(3, 7));
 		System.out.println(str.contains("cde"));
-		
+		System.out.println(str);
+		str= str +"abc";
+		System.out.println(str);;
+		System.out.println(str.concat("def"));
+		System.out.println(str);
+		String str1 = "abc";
+		String str2 = "abc";
+		if(str1.equals(str2)) {
+			System.out.println("equal");
+		}
+		else {
+			System.out.println("not equal");
+		}
 	}
 
 }
