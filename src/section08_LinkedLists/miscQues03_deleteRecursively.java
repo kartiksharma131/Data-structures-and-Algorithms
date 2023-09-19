@@ -22,5 +22,5 @@ public class miscQues03_deleteRecursively {
 		head=deleteRecursively(head,position);
 		head.printList(head);
 	}
-
+ 
 }
