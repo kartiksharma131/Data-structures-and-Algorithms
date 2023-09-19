@@ -5,12 +5,9 @@ public class Ques07_ReverseLLRecursively {
 		if(head==null||head.next==null) {
 			return head;
 		}
+		Node<Integer> reversedTail =head.next;
 		Node<Integer> finalHead = reverseRecursively(head.next);
-		Node<Integer> temp = finalHead;
-		while(temp.next!=null) {
-			temp=temp.next;
-		}
-		temp.next=head;
+		reversedTail.next=head; 
 		head.next=null;
 		return finalHead;
 	}
@@ -22,4 +19,4 @@ public class Ques07_ReverseLLRecursively {
 
 	}
 
-}
+} 
