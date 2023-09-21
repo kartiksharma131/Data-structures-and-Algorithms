@@ -2,7 +2,7 @@ package section09_BitManipulation;
 
 import java.util.Scanner;
 
-public class misc01_findUniqueNumber {
+public class miscQues01_findUniqueNumber {
 	public static int findUnique(int [] arr) {
 		int ans =0;
 		for(int i=0;i<arr.length;i++) {
