@@ -2,7 +2,7 @@ package section09_BitManipulation;
 
 import java.util.Scanner;
 
-public class ques03_checkOddOrEven {
+public class Ques03_checkOddOrEven {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
