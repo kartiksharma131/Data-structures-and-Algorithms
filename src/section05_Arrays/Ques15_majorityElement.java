@@ -10,11 +10,11 @@ public class Ques15_majorityElement {
 			if(arr[i]==element) {
 				count++;
 			}
-			if(count==0 && arr[i]!=element) {
+			else if(count==0 && arr[i]!=element) {
 				element=arr[i];
 				count++;
 			}
-			if(arr[i]!=element &count>0) {
+			else if(arr[i]!=element &count>0) {
 				count--;
 			}
 		}
