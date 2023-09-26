@@ -10,7 +10,11 @@ public class StackInCollections {
 		stack.push(10);
 		stack.push(20);
 		stack.peek();
-		
+		stack.size();
+		stack.push(30);
+		while(!stack.isEmpty()) {
+			stack.pop();
+		}
 	}
 
 }
