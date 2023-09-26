@@ -11,6 +11,7 @@ public class Ques21_leadersinArray {
 			for(int j=i+1;j<arr.length;j++) {
 				if(arr[j]>arr[i]) {
 					ans=true;
+					break;
 				}
 			}
 			if(!ans) {
