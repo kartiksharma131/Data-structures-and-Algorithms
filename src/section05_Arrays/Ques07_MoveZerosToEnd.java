@@ -14,12 +14,14 @@ public class Ques07_MoveZerosToEnd {
 		if(j==-1) {
 			return;
 		}
-		for(int i=j+1;i<arr.length;i++) {
-			if(arr[i]!=0) {
-				int temp = arr[i];
-				arr[i]=arr[j];
-				arr[j]=temp;
-				j++;
+		else {
+			for(int i=j+1;i<arr.length;i++) {
+				if(arr[i]!=0) {
+					int temp = arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+					j++;
+				}
 			}
 		}
 	}
