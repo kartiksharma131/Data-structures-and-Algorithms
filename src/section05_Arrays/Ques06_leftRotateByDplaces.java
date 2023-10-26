@@ -15,7 +15,7 @@ public class Ques06_leftRotateByDplaces {
 	
 	//reversal algorithm
 	public static void leftRotateByDPlaces(int [] arr,int d) {
-		d=d%arr.length();
+		d=d%arr.length;
 		reverse(arr,0,d-1);
 		reverse(arr,d,arr.length-1);
 		reverse(arr,0,arr.length-1);
