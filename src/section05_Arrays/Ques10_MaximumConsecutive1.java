@@ -11,7 +11,7 @@ public class Ques10_MaximumConsecutive1 {
 				maxTillNow++;
 			}
 			
-			else if(maxTillNow>max1) {
+			else if(maxTillNow>max1 && arr[i]!=1) {
 				max1=maxTillNow;
 				maxTillNow=0;
 			}
