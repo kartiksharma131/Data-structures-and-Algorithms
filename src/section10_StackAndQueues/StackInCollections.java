@@ -1,5 +1,4 @@
 package section10_StackAndQueues;
-
 import java.util.Stack;
 
 public class StackInCollections {

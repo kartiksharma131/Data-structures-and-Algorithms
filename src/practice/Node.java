@@ -121,10 +121,15 @@ public class Node<T> {
 	public static int midPointOfll(Node<Integer> head) {
 		Node<Integer> slow= head;
 		Node<Integer> fast = head;
-		while(fast.next!=null && fast.next.next!=null) {
-			slow=slow.next;
-			fast=fast.next.next;
-		}
+		while(fast.next!=null){
+            fast=fast.next;
+            slow=slow.next;
+            if(fast.next!=null){
+                fast=fast.next;
+                
+            }
+
+        }
 		return slow.data;
 	}
 	public static Node<Integer> reverLLIteratively(Node<Integer> head){
