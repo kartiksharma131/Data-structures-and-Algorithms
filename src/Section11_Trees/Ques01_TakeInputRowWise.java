@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class TakeInputRowWise {
+public class Ques01_TakeInputRowWise {
 
 	public static TreeNode<Integer> takeInputLevelWise(){
 		System.out.println("Enter root data");
