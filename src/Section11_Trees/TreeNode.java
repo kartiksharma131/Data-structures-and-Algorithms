@@ -67,16 +67,4 @@ public class TreeNode<T> {
 		
 	}
 	
-	public static int noOfNodes(TreeNode<Integer> root) {
-		if(root==null) {
-			return 0;
-		}
-		int ans=1;
-		int n = root.children.size();
-		for(int i=0;i<root.children.size();i++) {
-			ans = ans+noOfNodes(root.children.get(i));
-		}
-		return ans;
-		
-	}
 }
