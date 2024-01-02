@@ -16,9 +16,9 @@ public class TreeNode<T> {
 
 	public static TreeNode<Integer> takeInput(Scanner scn) {
 		// TODO Auto-generated method stub
-		int n;
+		
 		System.out.println("Enter next node data");
-		n=scn.nextInt();
+		int n=scn.nextInt();
 		TreeNode<Integer> root = new TreeNode<Integer>(n);
 		System.out.println("Enter the number of children");
 		int children = scn.nextInt();
