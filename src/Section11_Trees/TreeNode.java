@@ -17,16 +17,15 @@ public class TreeNode<T> {
 	public static TreeNode<Integer> takeInput(Scanner scn) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Enter next node data");
-		int n=scn.nextInt();
-		TreeNode<Integer> root = new TreeNode<Integer>(n);
+		System.out.println("Enter the root data");
+		int n =scn.nextInt();
+		TreeNode<Integer> root = new TreeNode<>(n);
 		System.out.println("Enter the number of children");
 		int children = scn.nextInt();
 		for(int i=0;i<children;i++) {
-			TreeNode<Integer> child = takeInput(scn);
+			TreeNode<Integer> child =takeInput(scn);
 			root.children.add(child);
 		}
-		
 		return root;
 	}
 	public static void printTree(TreeNode<Integer> root) {
