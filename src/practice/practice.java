@@ -86,11 +86,9 @@ public class practice {
 			return ;
 		}
 		else {
-			for(int i=j+1;i<arr.length-1;i++) {
+			for(int i=j+1;i<arr.length;i++) {
 				if(arr[i]!=0) {
-					int temp = arr[i];
-					arr[i]=arr[j];
-					arr[j]=temp;
+					swap(arr[i],arr[j]);
 					j++;
 				}
 			}
