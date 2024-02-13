@@ -16,7 +16,7 @@ public class Ques04_RemoveDuplicatesFromSortedArray {
 			}
 			
 		}
-		return list;
+		return list;	
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
