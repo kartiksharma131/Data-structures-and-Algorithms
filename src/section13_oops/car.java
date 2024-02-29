@@ -21,7 +21,7 @@ public class car extends vehicle{
 	boolean isConvertible;
 	
 	public void print() {
-		super.print();
+		super.print(); 
 		System.out.println("car color: "+ color);
 		System.out.println("car color: "+ maxSpeed);
 		System.out.println("car color: "+ numGears);
