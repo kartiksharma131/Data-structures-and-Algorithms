@@ -13,6 +13,7 @@ public class IntroductionToStringBuilder {
 		str.deleteCharAt(str.length()-1);
 		System.out.println(str);
 		String str1 = str.toString();
+		
 		System.out.println(str1);
 	}
 
