@@ -1,4 +1,4 @@
-package singleton;
+package Pattern01_singleton;
 
 
 public class Samosa {

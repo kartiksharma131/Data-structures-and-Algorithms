@@ -1,4 +1,4 @@
-package factoryPattern;
+package Pattern02_factoryPattern;
 
 public class SoftwareDeveloper implements Employee {
 
