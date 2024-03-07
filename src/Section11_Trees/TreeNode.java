@@ -29,7 +29,7 @@ public class TreeNode<T> {
 		return root;
 	}
 	public static void printTree(TreeNode<Integer> root) {
-		String s= root.data + ":";
+		String s= root.data +  ":";
 		for(int i=0;i<root.children.size();i++) {
 			s=s+root.children.get(i).data +",";
 		}

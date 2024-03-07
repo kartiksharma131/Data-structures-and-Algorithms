@@ -24,7 +24,7 @@ public class Ques01_TakeInputRowWise {
 				frontNode.children.add(childNode);
 				pendingNodes.add(childNode);
 				
-			}
+			} 
 		}
 		return root;
 		

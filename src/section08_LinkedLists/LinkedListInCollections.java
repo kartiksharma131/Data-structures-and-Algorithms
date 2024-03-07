@@ -19,6 +19,7 @@ public class LinkedListInCollections {
 			System.out.println(list.get(i));
 		}
 		list.set(0, 400);
+		list.
 		System.out.println(list.get(0));
 		
 	}
