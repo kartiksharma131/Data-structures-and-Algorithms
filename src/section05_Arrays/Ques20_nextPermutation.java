@@ -1,4 +1,4 @@
-package section05_Arrays;
+ package section05_Arrays;
 
 import java.util.Scanner;
 

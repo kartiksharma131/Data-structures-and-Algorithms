@@ -1,6 +1,9 @@
 package section12_BinaryTrees;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class Ques13_maxPathSum {
 	public static int maxPathDown(BinaryTreeNode<Integer> root, int [] maxi) {
@@ -19,10 +22,27 @@ public class Ques13_maxPathSum {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scn = new Scanner(System.in);
-		BinaryTreeNode<Integer> root = BinaryTreeNode.takeInput(scn);
-		int ans = maxSumPath(root);
-		System.out.println(ans);
+		//Scanner scn = new Scanner(System.in);
+		//BinaryTreeNode<Integer> root = BinaryTreeNode.takeInput(scn);
+		//int ans = maxSumPath(root);
+		//System.out.println(ans);
+		
+		List<Integer> salary = new ArrayList<>();
+		salary.add(1000);
+		salary.add(5000);
+		salary.add(2000);
+		salary.add(4000);
+		salary.add(6000);
+		Stream<Integer> str = salary.stream().filter((Integer sal)-> sal>=3000);
+		List<Integer> list = str.toList();
+		for(int i=0;i<list.size();i++) {
+			System.out.println(list.get(i));
+		}
+		
+		long count = salary.stream().filter((Integer sal)-> sal>3000).count();
+		System.out.println(count);
+		
+		
 	}
 
 }
