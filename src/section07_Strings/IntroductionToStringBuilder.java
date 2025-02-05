@@ -6,7 +6,9 @@ public class IntroductionToStringBuilder {
 		// TODO Auto-generated method stub
 		StringBuilder str = new StringBuilder("hello");
 		str.append(" world");
-		str.setCharAt(str.length()-1, '1');
+		str.append('1');
+		System.out.println(str);
+		str.setCharAt(str.length()-1, '2');
 		System.out.println(str);
 		str.insert(str.length()-1, 'd');
 		System.out.println(str);
