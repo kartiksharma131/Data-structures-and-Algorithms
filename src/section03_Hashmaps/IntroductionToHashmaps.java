@@ -26,6 +26,7 @@ public class IntroductionToHashmaps {
 		for( String s :str) {
 			System.out.println(s);
 		}
+		map.con
 				
 	}
 
